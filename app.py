@@ -1,3 +1,4 @@
+from datetime import date
 print("this is just a test")
 print("this is just a test from a git")
 
@@ -12,3 +13,7 @@ print(i1 % i2)
 print(i1 % i3)
 
 print("new commit from 05.08.2020")
+from datetime import date
+
+today = date.today()
+print("Today's date:", today)
